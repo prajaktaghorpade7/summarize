@@ -1,0 +1,72 @@
+.navbar{
+	position: static;
+}
+body{
+	background-image: url('https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+#ot, #mov, #ayli{
+	margin: 8vh 8% 2.5%;
+	font-size: 1.3em;
+	background: #ffffff57;
+	padding: 5%;
+}
+#hot, #hmov, #hayli{
+	margin-bottom: 6%;
+}
+#summ{
+	margin: 8vh 8% 2.5%;
+	font-size: 1.3em;
+}
+h2{
+	text-align: center;
+	text-decoration-line: underline;
+	text-decoration-style: double;
+	text-decoration-color: #3333337a;
+	text-underline-position: under;
+	font-variant: small-caps;
+	font-size: 3em;
+	font-family: "Lucida Console", Monaco, monospace;
+	color: #333;
+	margin-top: 10vh;
+
+}
+#dot, #dot1, #dot2{
+	font-size: 1.4em;
+}
+#dot{
+	margin: 8vh 8% 2.5%;
+}
+
+#mobile, #dot2{
+	display: none;
+}
+@media (min-width: 600px){
+	#mobile, #dot2{
+		display: block;
+	}
+	#dot1{
+		display: none;
+	}
+}
+#showmore, #showless{
+	text-decoration: none;
+	color: #000000;;
+	background-color: #ffffff82;
+	border-radius: 10px;
+}
+#showless{
+	padding: 1%;
+}
+#dot a:hover{
+	background-color: #ffffff;
+}
+#Readmore{
+	font-size: .7em;
+	display: none;
+}
+#summary a:hover > #Readmore{
+	display: inline-block;
+}
+#summary a:active > #Readmore{
+	display: inline-block;
+}

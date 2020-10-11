@@ -1,0 +1,128 @@
+.navbar{
+	position: static;
+}
+body{
+	background-image: url('https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+#space{
+	display: block;
+	margin: 6%;
+	min-height: 15px;
+}
+#divtableL{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#divtableM{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+table{
+	width: 100%;
+	border-radius: 5px;
+	text-align: center;
+	border-collapse: initial;
+	border-radius: 20px;
+	box-shadow: 11px 10px 20px 4px #9b9b9b;
+}
+th, td{
+	text-align: center;
+	padding: 15px 2%;
+}
+th{
+	background-color: #546E7A;
+	background: linear-gradient(#57928bd9 0%,#6ca9c7bf 100%);
+	color: #f8f8ff;
+}
+td{
+	background: #ffffffad;
+}
+tr:last-child td:last-child{
+	border-radius: 0 0 20px 0;
+}
+tr:last-child td:first-child{
+	border-radius: 0 0 0 20px;
+}
+th:first-child{
+	border-radius: 20px 0 0 0;
+}
+th:last-child{
+	border-radius: 0 20px 0 0;
+}
+#divtableM tr:nth-child(even){
+	background-color: #79a9b2ad;
+}
+#divtableL{
+	display: none;
+}
+@media all and (min-width: 600px){
+	#space{
+		min-height: initial;
+	}
+	#divtableL{
+		display: block;
+	}
+	#divtableM{
+		display: none;
+	}
+}
+#description{
+	margin: 3px 8%;
+}
+
+h2{
+	clear: both;
+	text-align: center;
+	text-decoration-line: underline;
+	text-decoration-style: double;
+	text-decoration-color: #3333337a;
+	text-underline-position: under;
+	font-variant: small-caps;
+	font-size: 3em;
+	font-family: "Lucida Console", Monaco, monospace;
+	color: #333;
+	margin-top: 10vh;
+
+}
+p{
+	font-size: 1.3em;
+	background: #ffffff57;
+	padding: 5%;
+}
+p:first-letter{
+	padding-left: 5%;
+	font-size: 1.4em;
+	font-family: initial;
+}
+#largeimg{
+	display: none;
+}
+#mobileimg{
+	display: inline-block;
+}
+img{
+	width: 80%;
+	margin-left: 10%;
+}
+@media all and (min-width: 1000px){
+	img{
+		width: 100%;
+		margin:1% 10%; 
+	}
+	section{
+		width: 42%;
+		float: left;
+	}
+	#Education, #Family, #Travels, #Hobbies{
+		margin-bottom: 15vh;
+	}
+	#largeimg{
+		display: inline-block;
+		margin-right: 10%;
+	}
+	#mobileimg{
+		display: none;
+	}
+}
